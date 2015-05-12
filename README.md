@@ -13,13 +13,17 @@ A tool for developers to log and track their own competencies and those of other
 MongoDB is required.
 
 Download Mongodb, and add it to the path:
+
 using Terminal:
+
 `cd ~`
 `touch .bash_profile`
 `vim .bash_profile`	
 
-add these 2 lines:
+Add these 2 lines:
+
 export MONGO_PATH=/usr/local/mongodb                        ///usr/local/mongodb is your path to mongodb
+
 export PATH=$PATH:$MONGO_PATH/bin
 
 Save: Shift + ZZ
