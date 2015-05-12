@@ -22,9 +22,9 @@ using Terminal:
 
 Add these 2 lines:
 
-export MONGO_PATH=/usr/local/mongodb                        ///usr/local/mongodb is your path to mongodb
+`export MONGO_PATH=/usr/local/mongodb`                        ///usr/local/mongodb is your path to mongodb
 
-export PATH=$PATH:$MONGO_PATH/bin
+`export PATH=$PATH:$MONGO_PATH/bin`
 
 Save: Shift + ZZ
 
